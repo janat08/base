@@ -13,12 +13,12 @@ export METEOR_ALLOW_SUPERUSER=true
 cd $APP_SOURCE_DIR
 
 # install reaction-cli
-npm i -g reaction-cli
-ln -sf /opt/nodejs/bin/reaction /usr/local/bin/reaction
+# npm i -g reaction-cli
+# ln -sf /opt/nodejs/bin/reaction /usr/local/bin/reaction
 
 # Generate plugin import files
-printf "\n[-] Running Reaction plugin loader...\n\n"
-reaction plugins load
+# printf "\n[-] Running Reaction plugin loader...\n\n"
+# reaction plugins load
 
 # Install app deps
 printf "\n[-] Running npm install in app directory...\n\n"
